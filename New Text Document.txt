@@ -1,0 +1,17 @@
+http://localhost/my_project/register/
+set_value() setting the value even after submit
+
+CREATE TABLE `db1`.`sms_queue` (
+  `ID` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(60) NOT NULL DEFAULT ,
+  `price` VARCHAR(10) NOT NULL DEFAULT,
+  `description` VARCHAR(400) DEFAULT NULL,
+  `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP NOT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `add_by_user` VARCHAR(60) NOT NULL DEFAULT,
+  PRIMARY KEY (`Id`)
+)
+
+ALTER TABLE product
+
+ADD COLUMN updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
